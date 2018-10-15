@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 " Environment {
 
     " Identify platform {
@@ -927,35 +926,35 @@
         endif
     endif
 " }
-=======
+"
 "vundle begin
-set nocompatible " be iMproved
-filetype off  "required!
+" set nocompatible " be iMproved
+" filetype off  "required!
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" set rtp+=~/.vim/bundle/Vundle.vim
+" call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 "
 " let Vundle manage plugins
 " required! 
-Plugin 'VundleVim/Vundle.vim'"
-" vim-scripts.org repos
-Bundle 'The-NERD-tree'
-Bundle 'Tagbar'
-Bundle 'ctrlp.vim'
-Bundle 'bufexplorer.zip'
-Bundle 'grep.vim'
-" Github repos
-Bundle 'tomasr/molokai'
-Bundle 'sjl/badwolf'
-Bundle 'bling/vim-airline'
-Bundle 'terryma/vim-multiple-cursors'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'embear/vim-localvimrc'
-
-filetype plugin indent on     " required! 
+" Plugin 'VundleVim/Vundle.vim'"
+" " vim-scripts.org repos
+" Bundle 'The-NERD-tree'
+" Bundle 'Tagbar'
+" Bundle 'ctrlp.vim'
+" Bundle 'bufexplorer.zip'
+" Bundle 'grep.vim'
+" " Github repos
+" Bundle 'tomasr/molokai'
+" Bundle 'sjl/badwolf'
+" Bundle 'bling/vim-airline'
+" Bundle 'terryma/vim-multiple-cursors'
+" Bundle 'altercation/vim-colors-solarized'
+" Bundle 'embear/vim-localvimrc'
+" 
+" filetype plugin indent on     " required! 
 " vundle end
 
 " personal setting
@@ -1004,31 +1003,6 @@ map <leader>qq :qall<CR>
 
 " For quick replace
 map <leader>s :%s/\(<c-r>=expand("<cword>")<cr>\)/
-
-" For C++ completion plugin
-if v:version <= 703 || !has('python')
-	" For omnicomplete
-	Bundle 'OmniCppComplete'
-	let OmniCpp_NamespaceSearch = 1      
-	let OmniCpp_GlobalScopeSearch = 1      
-	let OmniCpp_ShowScopeInAbbr = 1
-	let OmniCpp_ShowPrototypeInAbbr = 1
-	let OmniCpp_ShowAccess = 1      
-	let OmniCpp_MayCompleteDot = 1
-	let OmniCpp_MayCompleteArrow = 1      
-	let OmniCpp_MayCompleteScope = 1      
-	let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
-	" Do not show preview window
-	autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
-	autocmd InsertLeave * if pumvisible() == 0|pclose|endif
-else
-  Bundle 'Valloric/YouCompleteMe'
-	"let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
-	let g:ycm_confirm_extra_conf = 0
-	let g:ycm_autoclose_preview_window_after_completion = 1
-	let g:ycm_autoclose_preview_window_after_insertion = 1
-	noremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
-endif
 
 " For NERDTree plugin
 "autocmd vimenter * NERDTree
@@ -1110,4 +1084,3 @@ let g:fastfold_fold_command_suffixes =  ['x','X','a','A','o','O','c','C']
 let g:fastfold_fold_movement_commands = [']z', '[z', 'zj', 'zk']
 let g:tex_fold_enabled=1
 
->>>>>>> 42c6cd5fca984364431a4da99342ca563bec6842

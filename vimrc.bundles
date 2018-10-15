@@ -166,7 +166,7 @@
     " }
 
     " Snippets & AutoComplete {
-        Bundle 'Valloric/YouCompleteMe'
+            Bundle 'Valloric/YouCompleteMe'
 
     " }
 
