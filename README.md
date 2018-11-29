@@ -2,4 +2,4 @@
 = clone Vundle to vim/bundle
 
 - user@host in prompt
-  - add `PROMPT="$fg[cyan]%}$USER@%{$fg[blue]%}%m ${PROMPT}"` in `~/.zshrc`
+  - add `PROMPT="%{$fg[cyan]%}%n@%{$fg[blue]%}%m%{$reset_color%} ${PROMPT}"` in `~/.zshrc`
