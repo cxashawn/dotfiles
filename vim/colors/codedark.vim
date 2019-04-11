@@ -157,15 +157,9 @@ call <sid>hi('PmenuThumb', {}, s:cdPopupFront, 'none', {})
 call <sid>hi('Question', s:cdBlue, s:cdBack, 'none', {})
 call <sid>hi('Search', s:cdNone, s:cdSearch, 'none', {})
 call <sid>hi('SpecialKey', s:cdBlue, s:cdNone, 'none', {})
-<<<<<<< HEAD
-call <sid>hi('SpellBad', s:cdNone, s:cdNone, 'underline', {})
-call <sid>hi('SpellCap', s:cdNone, s:cdNone, 'underline', {})
-call <sid>hi('SpellLocal', s:cdNone, s:cdNone, 'underline', {})
-=======
 call <sid>hi('SpellBad', s:cdNone, s:cdNone, 'undercurl', {})
 call <sid>hi('SpellCap', s:cdNone, s:cdNone, 'undercurl', {})
 call <sid>hi('SpellLocal', s:cdNone, s:cdNone, 'undercurl', {})
->>>>>>> 42c6cd5fca984364431a4da99342ca563bec6842
 call <sid>hi('StatusLine', s:cdFront, s:cdLeftMid, 'none', {})
 call <sid>hi('StatusLineNC', s:cdFront, s:cdLeftDark, 'none', {})
 call <sid>hi('TabLine', s:cdFront, s:cdTabOther, 'none', {})
