@@ -110,10 +110,7 @@ endif
 let s:cdGray = {'gui': '#808080', 'cterm': s:cterm04, 'cterm256': '08'}
 let s:cdViolet = {'gui': '#646695', 'cterm': s:cterm04, 'cterm256': '60'}
 let s:cdBlue = {'gui': '#569CD6', 'cterm': s:cterm0D, 'cterm256': '75'}
-<<<<<<< HEAD
-=======
 let s:cdDarkBlue = {'gui': '#223E55', 'cterm': s:cterm0D, 'cterm256': '73'}
->>>>>>> 42c6cd5fca984364431a4da99342ca563bec6842
 let s:cdLightBlue = {'gui': '#9CDCFE', 'cterm': s:cterm0C, 'cterm256': '117'}
 if g:codedark_conservative | let s:cdLightBlue = s:cdFront | endif
 let s:cdGreen = {'gui': '#608B4E', 'cterm': s:cterm0B, 'cterm256': '65'}
@@ -265,8 +262,6 @@ call <sid>hi('jsThis', s:cdBlue, {}, 'none', {})
 " Ruby:
 call <sid>hi('rubyClassNameTag', s:cdBlueGreen, {}, 'none', {})
 
-<<<<<<< HEAD
-=======
 " Golang:
 call <sid>hi('goPackage', s:cdBlue, {}, 'none', {})
 call <sid>hi('goImport', s:cdBlue, {}, 'none', {})
@@ -294,4 +289,3 @@ call <sid>hi('goFunctionCall', s:cdYellow, {}, 'none', {})
 call <sid>hi('goMethodCall', s:cdYellow, {}, 'none', {})
 call <sid>hi('goSingleDecl', s:cdLightBlue, {}, 'none', {})
 
->>>>>>> 42c6cd5fca984364431a4da99342ca563bec6842
