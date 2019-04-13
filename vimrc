@@ -1084,3 +1084,7 @@ let g:fastfold_fold_command_suffixes =  ['x','X','a','A','o','O','c','C']
 let g:fastfold_fold_movement_commands = [']z', '[z', 'zj', 'zk']
 let g:tex_fold_enabled=1
 
+" My mappingsj
+inoremap jj <Esc>
+inoremap <C-e> <C-o>A
+
