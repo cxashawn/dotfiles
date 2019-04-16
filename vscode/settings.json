@@ -1,0 +1,30 @@
+{
+    "editor.minimap.enabled": false,
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["<C-e>"],
+            "after": ["<C-o>", "A"]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+          "before": ["<C-n>"],
+          "commands": [":nohl"]
+        },
+        {
+            "before": ["g", "l"],
+            "commands": ["workbench.action.navigateRight"]
+        },
+        {
+            "before": ["g", "h"],
+            "commands": ["workbench.action.navigateLeft"]
+        },
+    ],
+}
