@@ -1,5 +1,8 @@
 {
     "editor.minimap.enabled": false,
+    "files.associations": {
+        "*.feature": "yaml",
+    },
     "vim.hlsearch": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
