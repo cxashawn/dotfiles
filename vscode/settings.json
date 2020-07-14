@@ -2,10 +2,12 @@
     "editor.minimap.enabled": false,
     "files.associations": {
         "*.feature": "yaml",
+        "*.bml": "html",
     },
     "vim.hlsearch": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
+    "workbench.editor.enablePreview": false,
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "j"],
@@ -28,6 +30,24 @@
         {
             "before": ["g", "h"],
             "commands": ["workbench.action.navigateLeft"]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
         },
     ],
 }
