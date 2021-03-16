@@ -639,7 +639,7 @@
     "}
 
     " YouCompleteMe {
-        let g:ycm_python_binary_path='/usr/local/bin/python3.7'
+        let g:ycm_python_binary_path='/opt/homebrew/bin/python3'
     " }
 
     " Snippets {

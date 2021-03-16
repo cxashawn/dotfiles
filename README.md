@@ -21,6 +21,8 @@ git clone --recursive git://github.com/joel-porquet/zsh-dircolors-solarized $ZSH
 
 ## vim
 
+- install vim from homebrew `brew install vim`
+
 - in Vim, run `:PluginInstall`
 
 ## vscode

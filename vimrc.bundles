@@ -136,6 +136,7 @@
             Bundle 'kana/vim-textobj-user'
             Bundle 'kana/vim-textobj-indent'
             Bundle 'gcmt/wildfire.vim'
+            Bundle 'Valloric/YouCompleteMe'
         endif
     " }
 
@@ -166,7 +167,6 @@
     " }
 
     " Snippets & AutoComplete {
-            Bundle 'Valloric/YouCompleteMe'
 
     " }
 
@@ -220,7 +220,6 @@
 
     " HTML {
         if count(g:spf13_bundle_groups, 'html')
-            Bundle 'amirh/HTML-AutoCloseTag'
             Bundle 'hail2u/vim-css3-syntax'
             Bundle 'gorodinskiy/vim-coloresque'
             Bundle 'tpope/vim-haml'
