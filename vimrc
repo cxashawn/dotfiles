@@ -273,22 +273,6 @@
         let s:spf13_apply_config_mapping = g:spf13_apply_config_mapping
     endif
 
-    " Easier moving in tabs and windows
-    " The lines conflict with the default digraph mapping of <C-K>
-    " If you prefer that functionality, add the following to your
-    " .vimrc.before.local file:
-    "   let g:spf13_no_easyWindows = 1
-    if !exists('g:spf13_no_easyWindows')
-        " map <C-J> <C-W>j<C-W>_
-        map gj <C-W>j<C-W>_
-        map gk <C-W>k<C-W>_
-        map gh <C-W>h<C-W>_
-        map gl <C-W>l<C-W>_
-        " map <C-K> <C-W>k<C-W>_
-        " map <C-L> <C-W>l<C-W>_
-        " map <C-H> <C-W>h<C-W>_
-    endif
-
     " Wrapped lines goes down/up to next row, rather than next line in file.
     noremap j gj
     noremap k gk
@@ -927,35 +911,7 @@
     endif
 " }
 "
-"vundle begin
-" set nocompatible " be iMproved
-" filetype off  "required!
 
-" set the runtime path to include Vundle and initialize
-" set rtp+=~/.vim/bundle/Vundle.vim
-" call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-"
-" let Vundle manage plugins
-" required! 
-" Plugin 'VundleVim/Vundle.vim'"
-" " vim-scripts.org repos
-" Bundle 'The-NERD-tree'
-" Bundle 'Tagbar'
-" Bundle 'ctrlp.vim'
-" Bundle 'bufexplorer.zip'
-" Bundle 'grep.vim'
-" " Github repos
-" Bundle 'tomasr/molokai'
-" Bundle 'sjl/badwolf'
-" Bundle 'bling/vim-airline'
-" Bundle 'terryma/vim-multiple-cursors'
-" Bundle 'altercation/vim-colors-solarized'
-" Bundle 'embear/vim-localvimrc'
-" 
-" filetype plugin indent on     " required! 
-" vundle end
 
 " personal setting
 set nu           " line number
@@ -987,11 +943,11 @@ let mapleader=","
 map <leader>h :wincmd h<CR>
 map <leader>j :wincmd j<CR>
 map <leader>k :wincmd k<CR>
-map <leader>l :wincmd l<CR> 
-nnoremap <C-h> <C-W>h
-nnoremap <C-j> <C-W>j
-nnoremap <C-k> <C-W>k
-nnoremap <C-l> <C-W>l
+map <leader>l :wincmd l<CR>
+nnoremap gh <C-W>h
+nnoremap gj <C-W>j
+nnoremap gk <C-W>k
+nnoremap gl <C-W>l
 
 " For quick buffer switching
 map gt :bn<CR>
