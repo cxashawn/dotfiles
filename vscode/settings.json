@@ -20,7 +20,7 @@
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-          "before": ["<C-n>"],
+          "before": ["<Esc>"],
           "commands": [":nohl"]
         },
         {
