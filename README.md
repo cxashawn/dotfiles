@@ -1,6 +1,6 @@
 # ¯\\\_(ツ)_/¯
 
-## shell
+## zsh
 
 1. install oh my zsh
 ```
