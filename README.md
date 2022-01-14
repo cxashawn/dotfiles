@@ -17,7 +17,7 @@ git clone --recursive git://github.com/joel-porquet/zsh-dircolors-solarized $ZSH
 # plugins=(zsh-dircolors-solarized)
 ```
 
-4. use customized `zshrc`, `dircolors.ansi-dark`, `robbyrussell.zsh-theme`
+4. replace with customized `zshrc`, `dircolors.ansi-dark`, `robbyrussell.zsh-theme` from `zsh/` folder
 
 ## vim
 
