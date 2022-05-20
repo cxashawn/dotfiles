@@ -1,5 +1,10 @@
 # ¯\\\_(ツ)_/¯
 
+- [Shell](#shell)
+- [Editor](#editor)
+
+# Shell
+
 ## zsh
 
 1. install oh my zsh
@@ -18,6 +23,12 @@ git clone --recursive git://github.com/joel-porquet/zsh-dircolors-solarized $ZSH
 ```
 
 4. replace with customized `zshrc`, `dircolors.ansi-dark`, `robbyrussell.zsh-theme` from `zsh/` folder
+
+## Command
+
+- `fd`
+
+# Editor
 
 ## vim
 
