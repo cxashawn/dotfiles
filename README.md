@@ -26,6 +26,8 @@ git clone --recursive git://github.com/joel-porquet/zsh-dircolors-solarized $ZSH
 
 ## Command
 
+[modern unix command line](https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/)
+
 - [`fd`](https://github.com/sharkdp/fd)
 
 # Editor
