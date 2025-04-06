@@ -3,7 +3,13 @@
 - [Shell](#shell)
 - [Editor](#editor)
 
-# Shell
+# Terminal
+
+## iTerm
+
+Alt/Opion + arrow key setting:
+1. Go to setting -> “Profiles” -> Default -> Keys -> Key Bindings
+2. Click the “Presets” dropdown and select “Natural Text Editing”
 
 ## zsh
 
